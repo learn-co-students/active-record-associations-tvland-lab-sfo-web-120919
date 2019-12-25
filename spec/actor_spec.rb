@@ -48,6 +48,7 @@ describe "Actor" do
     emilia.save
 
     emilia.reload
+    # binding.pry
     expect(emilia.full_name).to eq("Emilia Clarke")
   end
 
